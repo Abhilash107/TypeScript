@@ -36,7 +36,6 @@ function getDbId(id: number | string){
 // getDbId("9")
 
 
-
 //Arrays
 //const data: number[] = [1,2,3,4,5,6,"8"]//error
 const data1: number[] = [1,2,3,4,5,6,8]
@@ -53,7 +52,7 @@ let seatAllotment: "aisle" | "middle" | "window"
 
 
 seatAllotment = "aisle"
-seatAllotment = "crew"// Error
+//seatAllotment = "crew"// Error
 //Type '"crew"' is not assignable to type '"aisle" | "middle" | "window"'
 
 
